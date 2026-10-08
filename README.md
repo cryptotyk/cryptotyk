@@ -19,24 +19,24 @@ Madeira, Portugal · open to remote Data Engineer roles
 
 <!-- Uncomment after the CoinGecko project is published -->
 <!--
-**[CoinGecko batch pipeline](https://github.com/cryptotyk/REPO_NAME)**
-Airflow-orchestrated batch pipeline: CoinGecko REST API → raw JSON in S3 → Spark transformations → ClickHouse tables for analytics.
+**[CoinGecko batch pipeline](https://github.com/cryptotyk/REPO_NAME)**  
+Airflow-orchestrated batch pipeline: CoinGecko REST API → raw JSON in S3 → Spark transformations → ClickHouse tables for analytics.  
 `Python` `Airflow` `Spark` `S3` `ClickHouse` `Docker`
 -->
 
 <!-- Uncomment after the telemetry part is published as a public repo -->
 <!--
-**[Polymarket market telemetry](https://github.com/cryptotyk/REPO_NAME)**
-Python service that samples Polymarket order books (CLOB REST API), Chainlink reference prices (Polymarket RTDS WebSocket) and Binance spot/mark prices and klines into PostgreSQL, storing source timestamps and request latency with every sample. A Grafana dashboard compares the prediction-market price with the underlying asset in 5-minute crypto markets.
+**[Polymarket market telemetry](https://github.com/cryptotyk/REPO_NAME)**  
+Python service that samples Polymarket order books (CLOB REST API), Chainlink reference prices (Polymarket RTDS WebSocket) and Binance spot/mark prices and klines into PostgreSQL, storing source timestamps and request latency with every sample. A Grafana dashboard compares the prediction-market price with the underlying asset in 5-minute crypto markets.  
 `Python` `PostgreSQL` `SQLAlchemy` `WebSockets` `Docker Compose` `Grafana`
 -->
 
-**[Solana DEX trades collector](https://github.com/cryptotyk/Data-parsing)**
-Streaming collector for the Birdeye WebSocket API: discovers newly listed Solana tokens, subscribes to their swap transactions and writes each transaction as JSON to Google Cloud Storage, partitioned by token address. Built to run as a container on Google Cloud Run.
+**[Solana DEX trades collector](https://github.com/cryptotyk/solana-dex-trades-collector)**  
+Streaming collector for the Birdeye WebSocket API: discovers newly listed Solana tokens, subscribes to their swap transactions and writes each transaction as JSON to Google Cloud Storage, partitioned by token address. Built to run as a container on Google Cloud Run.  
 `Python` `asyncio` `WebSockets` `Google Cloud Storage` `Cloud Run`
 
-**[Exchange account monitoring dashboard](https://github.com/cryptotyk/Crypto-Monitor-Dashboard)**
-Grafana dashboard on PostgreSQL tables of exchange balances and trades: base/quote balances over time, trade notional, fees, trade count and trade history, filtered by exchange, subaccount and trading pair.
+**[Exchange account monitoring dashboard](https://github.com/cryptotyk/Crypto-Monitor-Dashboard)**  
+Grafana dashboard on PostgreSQL tables of exchange balances and trades: base/quote balances over time, trade notional, fees, trade count and trade history, filtered by exchange, subaccount and trading pair.  
 `SQL` `PostgreSQL` `Grafana`
 
 ### Experience in brief
