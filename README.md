@@ -47,6 +47,10 @@ Streaming collector for the Birdeye WebSocket API: discovers newly listed Solana
 Grafana dashboard on PostgreSQL tables of exchange balances and trades: base/quote balances over time, trade notional, fees, trade count and trade history, filtered by exchange, subaccount and trading pair.  
 `SQL` `PostgreSQL` `Grafana`
 
+**[Exchange listing data collector](https://github.com/cryptotyk/exchange-listing-data-collector)**  
+Batch tool that collects token market data across 13+ centralized exchanges, checks each token against per-exchange listing requirements kept in a JSON config and produces Excel reports with tokens at risk of delisting. Design write-up; code is private.  
+`Python` `REST APIs` `JSON config` `Excel reports`
+
 ### Experience in brief
 
 - **Data Engineer · Coinrate.pro · 2025–present** — Python ingestion from REST APIs and WebSockets into PostgreSQL and S3, Spark transformations and ClickHouse loads orchestrated with Airflow; 120+ PostgreSQL tables and 30+ dbt models behind analytical data marts and Grafana dashboards for client reporting; cron jobs and long-running services under systemd with retries, backfills, deduplication and a 5-minute data freshness target.
