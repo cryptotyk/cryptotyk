@@ -24,12 +24,9 @@ Airflow-orchestrated batch pipeline: CoinGecko REST API → raw JSON in S3 → S
 `Python` `Airflow` `Spark` `S3` `ClickHouse` `Docker`
 -->
 
-<!-- Uncomment after the telemetry part is published as a public repo -->
-<!--
-**[Polymarket market telemetry](https://github.com/cryptotyk/REPO_NAME)**  
-Python service that samples Polymarket order books (CLOB REST API), Chainlink reference prices (Polymarket RTDS WebSocket) and Binance spot/mark prices and klines into PostgreSQL, storing source timestamps and request latency with every sample. A Grafana dashboard compares the prediction-market price with the underlying asset in 5-minute crypto markets.  
+**[Polymarket market telemetry](https://github.com/cryptotyk/polymarket-market-telemetry)**  
+Python service that samples Polymarket order books (CLOB REST API), Chainlink reference prices (Polymarket RTDS WebSocket) and Binance spot/mark prices and klines into PostgreSQL, storing source timestamps and request latency with every sample. A Grafana dashboard compares the prediction-market price with the underlying asset in 5-minute crypto markets. Architecture write-up; code is private.  
 `Python` `PostgreSQL` `SQLAlchemy` `WebSockets` `Docker Compose` `Grafana`
--->
 
 **[Solana DEX trades collector](https://github.com/cryptotyk/solana-dex-trades-collector)**  
 Streaming collector for the Birdeye WebSocket API: discovers newly listed Solana tokens, subscribes to their swap transactions and writes each transaction as JSON to Google Cloud Storage, partitioned by token address. Built to run as a container on Google Cloud Run.  
